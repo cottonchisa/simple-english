@@ -1,0 +1,282 @@
+body{
+    color: #555;
+
+
+}
+
+#container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right:40px;
+    margin-top: -20px;
+    
+
+}
+
+header nav ul li{
+    padding:0  15px;
+    
+  
+}
+
+.main-img{
+    height:800px;
+    background-image: url(img/mainimg.jpg);
+    background-size: cover;
+     background-repeat: no-repeat;
+    justify-content: flex-end;
+    display: flex;
+  
+
+
+}
+
+
+.main-img p{
+    line-height: 30px;
+    font-size: 1.2rem;;
+    font-weight: 600;
+    background-color: rgba(255,255,255, 0.8);
+    padding:20px;
+    display: inline-block;
+}
+
+.explain-school{
+ 
+    text-align: center;
+    background-color: #fff;
+  
+    border-radius: 40px;
+    margin-top: 30px;
+    padding-bottom:40px;
+    box-shadow: rgba(255, 111, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin: 30px auto;
+
+
+}
+.explain-school h1{
+    color:black;
+     display: inline-block;
+    padding: 7px 30px;
+    font-size: 2rem;
+font-family: 'Bagel Fat One', cursive;
+font-family: 'Cardo', serif;
+font-family: 'Permanent Marker', cursive;font-family: 'Cardo', serif;
+
+
+}
+
+.explain-school p{
+    font-size: 1.2rem;
+    line-height: 2.5;
+    margin: 30px 30px;
+
+
+
+}
+
+.h1-design h1{
+    position: relative;
+    padding: 0.6em 70px;
+    background: -webkit-repeating-linear-gradient(-45deg, #fff5df, #fff5df 4px,#ffe4b1 3px, #ffe4b1 8px);
+    background: repeating-linear-gradient(-45deg, #fff5df, #fff5df 4px,#ffe4b1 3px, #ffe4b1 8px);
+    border-radius: 7px;
+    text-align: center;
+    color: ;
+
+}
+
+.h1-design h1:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 30px;
+    border: 15px solid transparent;
+    border-top: 15px solid #ffebbe;
+    width: 0;
+    height: 0;
+  }
+
+.why-sample-school{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+
+
+.why-sample-school div{
+    height: 250px;
+    width: 250px;
+    padding:30px 10px;
+    background-color:rgb(255, 209, 217);
+    margin:20px;
+    border-radius: 7px;
+    border:1px solid #555;
+
+
+}
+
+
+
+
+
+.why-sample-school div img{
+    height: 200px;
+    width: 250px;
+
+}
+
+.button{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.button button{
+ padding:20px 20px;
+ border-radius: 7px;
+ display: flex;
+ margin-bottom:30px;
+ font-size: 1.0rem;
+ background-color: rgb(153, 203, 247);
+ color: #fff;
+} 
+
+.button button::before{
+ 
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    content: '\f138';
+    margin-right: 5px;
+    position: relative;
+    top:3px;
+    color:#fff;
+}
+
+.button button::before:hover{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    content: '\f138';
+    margin-right: 5px;
+    position: relative;
+    top:3px;
+    color:rgb(153, 203, 247);
+
+}
+
+.button button:hover{
+    cursor: pointer;
+    background-color:#fff;
+    color: #555;
+
+}
+
+.button a {
+    text-decoration: none;
+  
+}
+
+.sample-school-course div{
+
+    max-height: 300px;
+    width: 280px;
+    padding:40px;
+    background-color:#fff;
+    margin:30px;
+    border-radius: 7px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border:1px solid #555;
+
+
+}
+
+
+.sample-school-course{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+    margin-top: 30px;
+    justify-content: center;
+
+
+}
+.sample-school-course img{
+    height: 200px;
+    width: 280px;
+
+
+}
+
+.sample-school-course button{
+    border: 2px solid pink;
+    background-color: #fff;
+    padding:10px 70px;
+    border-radius: 3px;
+    margin-top:15px;
+}
+
+
+.flag-line{
+    text-align: center;
+}
+
+.sns{
+
+   
+   text-align: center;
+}
+
+.facebook-sns{
+    background-color:#3b5998;
+    padding:20px 65px;
+    text-align: center;
+    margin-right: 50px;
+    display: inline-block;
+    font-size: 1.2rem;
+    color:#fff;
+    margin-bottom: 50px;
+
+}
+
+.facebook-sns::before{
+    content: '\f09a';
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    margin-right: 7px;
+
+}
+
+.instagram-sns{
+    background-color: aquamarine;
+    padding:20px 70px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2rem;
+    background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+    color: #fff;
+
+}
+
+.instagram-sns::before{
+    content: '\f16d';
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    margin-right: 7px;
+
+}
