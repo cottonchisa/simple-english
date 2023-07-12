@@ -5,7 +5,7 @@ body{
 }
 
 #container{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -14,14 +14,22 @@ header nav ul{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-right:40px;
-    margin-top: -20px;
+    margin-right:50px;
+    margin-top: -20px    
     
 
 }
 
+
+
+header nav a{
+ text-decoration: none;
+
+}
 header nav ul li{
     padding:0  15px;
+    margin-right :50px;
+    font-size: 1.2rem;
     
   
 }
@@ -30,7 +38,7 @@ header nav ul li{
     height:800px;
     background-image: url(img/mainimg.jpg);
     background-size: cover;
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     justify-content: flex-end;
     display: flex;
   
@@ -280,3 +288,58 @@ font-family: 'Permanent Marker', cursive;font-family: 'Cardo', serif;
     margin-right: 7px;
 
 }
+
+
+.new-news{
+margin-bottom: 30px;
+
+}
+
+.new-news h2{
+    text-align: center;
+
+}
+
+.new-news p{
+    text-align: center;
+
+}
+    
+
+
+.new-news span{
+ font-size: 1.1rem;
+
+}
+
+.new-news li{
+    margin-top: 30px;
+    border-bottom: #cfc dotted 1px;
+    border-top: #cfc dotted 1px;
+    padding:20px 0;
+}
+
+.new-news time{
+    font-size: 1.1rem;
+    padding-right:50px;
+
+}
+.new-news ul {
+ list-style: none;
+
+}
+
+footer{
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+   
+}
+
+footer div{
+    margin:10px 30px;
+    padding:0 30px;
+}
+
+
+
