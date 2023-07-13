@@ -20,6 +20,9 @@ header nav ul{
 
 }
 
+nav ul li:hover{
+    background-color:#fff2cc;
+}
 
 
 header nav a{
