@@ -365,6 +365,7 @@ footer div{
     .flag-line img{
         width:90%;
         max-width:90%;
+        text-align: center;
     }
     
     … }
