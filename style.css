@@ -361,7 +361,11 @@ footer div{
     header nav{
         display: none;
     }
-    
+
+    .flag-line img{
+        width:90%;
+        max-width:90%;
+    }
     
     … }
 
