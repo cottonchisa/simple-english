@@ -9,25 +9,19 @@ body{
     margin: 0 auto;
 }
 
-header nav ul{
+.header-for-pc nav ul{
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-right:50px;
-    margin-top: -20px    
+    padding:10px 0;
     
 
 }
 
 
 
-header nav a{
- text-decoration: none;
- padding:15px;
 
-
-}
 header nav ul li{
     padding:0  15px;
     margin-right :50px;
@@ -35,7 +29,7 @@ header nav ul li{
 }
 
 
-header nav li a:hover{
+.header-for-pc nav li a:hover{
   opacity: 0.5;
     cursor: pointer;
 }
@@ -47,6 +41,7 @@ font-weight: 900;
 content: '\f138';
 font-size: normal;
 }
+
 .main-img{
     height:600px;
     background-image: url(img/mainimg.jpg);
@@ -257,6 +252,7 @@ font-size: normal;
 .sns-flex{
 text-align: center;
 margin-top:50px;
+
     
 
 }
@@ -271,6 +267,7 @@ margin-top:50px;
     padding:20px 50px;
     border-radius: 30px;
     margin-right: 20px;
+
 
 }
 
@@ -290,6 +287,7 @@ margin-top:50px;
     padding:20px 50px;
     text-align: center;
     border-radius: 30px;
+    margin-right: 20px;
 
 }
 
@@ -358,8 +356,73 @@ footer div{
         background-color: #fff;
     }
 
-    header nav{
-        display: none;
+    .menu-bar{
+        display:flex;
+        flex-direction:column;
+       
+      }
+      .menu-bar span{
+        height:4px;
+        background-color:purple;
+        display:inline-block;
+        width:30px;
+        margin:3px;
+      }
+      
+      .flipBar1 {
+        animation:flipBar1 1s;
+        animation-fill-mode:forwards;
+      }
+      .fadeBar2{
+        animation:fadeBar2 1s;
+         animation-fill-mode:forwards;
+      }
+      
+      .flipBar3{
+        animation:flipBar3 1s;
+         animation-fill-mode:forwards;
+      }
+      
+      .menu-bar:hover{
+        cursor:pointer;
+      }
+      
+      
+      
+      @keyframes flipBar1{
+        from{
+          transform:rotate(0);
+      }
+        to{
+          transform:rotate(45deg) translate(5px,5px);
+        }
+      }
+      
+      @keyframes fadeBar2{
+        from{
+          taransform:scale(1);
+          opacity:1
+        }
+        to{
+         taransform:scale(0);
+      
+          opacity:0;
+        }
+      }
+      
+      @keyframes flipBar3{
+        from{
+          transform:rotate(0);
+      }
+        to{
+          transform:rotate(-45deg)translate(8px,-10px);
+        }
+      }
+
+    .header-for-pc nav ul{
+        flex-direction: column;
+        background-color: #cfc;
+        
     }
 
     .flag-line img{
@@ -368,7 +431,9 @@ footer div{
         text-align: center;
     }
     
-    … }
+    .footer-for-pc{
+        display: none;
+    }
 
 
-
+}
